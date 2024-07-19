@@ -1,0 +1,30 @@
+name: primeiroappflutter
+description: "A new Flutter project."
+# A linha a seguir previne que o pacote seja publicado acidentalmente no pub.dev usando `flutter pub publish`.
+# Isso é preferível para pacotes privados.
+publish_to: 'none' # Remova esta linha se desejar publicar no pub.dev
+
+# A seguir define a versão e o número de build para sua aplicação.
+# Um número de versão é três números separados por pontos, como 1.2.43,
+# seguido opcionalmente por um número de build separado por +.
+# Tanto a versão quanto o número de build podem ser sobrescritos no flutter
+# build especificando --build-name e --build-number, respectivamente.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.17.0 <3.0.0' # Ajustei a versão mínima do SDK para um valor mais atual
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.1
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
